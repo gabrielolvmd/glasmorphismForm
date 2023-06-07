@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#476892, #59355d);
+}
+
+.background {
+  min-width: 18.75em;
+  min-height: 29.7em;
+  max-width: 26.8em;
+  max-height: 32.5em;
+  border: 1px solid #ffffff27;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+}
+
+.shape {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.shape:first-child {
+  background: linear-gradient(to right, #fbca88, #ef69ad);
+  border-radius: 49% 51% 40% 60% / 66% 31% 69% 34%;
+  left: -110px;
+  top: -90px;
+}
+
+.shape:last-child {
+  background: linear-gradient(to right, #92f1d5, #abf68d);
+  border-radius: 28% 72% 35% 65% / 49% 46% 54% 51%;
+  right: -90px;
+  bottom: -100px;
+}
+
+form {
+  min-width: 18.75em;
+  min-height: 29.7em;
+  max-width: 26.8em;
+  max-height: 32.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+  padding: 40px 35px;
+}
+
+form * {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+form h3 {
+  display: block;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+form h3 span {
+  font-weight: 100;
+  display: block;
+}
+
+label {
+  margin-top: 40px;
+  display: block;
+  font-weight: 600;
+}
+
+::placeholder {
+  color: #ffffff9a;
+}
+
+input {
+  height: 60px;
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  background-color: #2d282e2d;
+  color: #ffffff;
+}
+
+input:hover {
+  background-color: #2d282e50;
+}
+
+button {
+  margin: 50px 0 0;
+  display: block;
+  border-radius: 3px;
+  width: 100%;
+  padding: 15px;
+  color: #000;
+  font-weight: 900;
+  font-size: 1.2em;
+  background-color: #ffffffe5;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+a {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  font-size: smaller;
+  text-decoration: none;
+  margin-top: 7px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
